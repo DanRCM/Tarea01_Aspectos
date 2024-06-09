@@ -1,5 +1,5 @@
-com/edu/espol/observer2/Observer.class
 com/edu/espol/observer2/CurrentObserver.class
+com/edu/espol/observer2/Observer.class
 com/edu/espol/observer2/PrimaryController.class
 com/edu/espol/observer2/MainSubject.class
 com/edu/espol/observer2/App.class
