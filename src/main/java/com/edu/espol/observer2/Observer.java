@@ -13,5 +13,6 @@ public interface Observer {
     public static void update(int state,String colorButton) {
         String color=colorButton.replace("Button", "");
     }
+    public int getState();
     public String getColor();
 }

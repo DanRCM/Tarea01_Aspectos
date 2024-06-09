@@ -53,7 +53,10 @@ public class PrimaryController {
         MainSubject.setState(newState);
         MainSubject.notifyObservers();
         pane.setBackground(new Background(new BackgroundFill(color,null,null)));
-        
+        System.out.println("");
+        System.out.println("Observer1 state: " + MainSubject.observers.get(0).getState());
+        System.out.println("Observer2 state: " + MainSubject.observers.get(1).getState());
+        System.out.println("Observer3 state: " + MainSubject.observers.get(2).getState());
 
     }
 }

@@ -16,6 +16,9 @@ public  class CurrentObserver implements Observer {
         this.color = color;
         MainSubject.state= state;
     }
+    public int getState(){
+        return MainSubject.state;
+    }
     public String getColor(){
         return this.color;
     }

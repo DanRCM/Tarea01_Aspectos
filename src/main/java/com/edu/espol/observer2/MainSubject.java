@@ -37,5 +37,6 @@ public class MainSubject {
 //            observer.update(this.state,PrimaryController.color);
         }
         System.out.println("Current background color set to: " +PrimaryController.color);
+        System.out.println("The state of the observers has changed!");
     }
 }
