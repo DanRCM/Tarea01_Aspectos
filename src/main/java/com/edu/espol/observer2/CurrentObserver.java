@@ -9,20 +9,15 @@ package com.edu.espol.observer2;
  *
  * @author hailiejimenez
  */
-public class CurrentObserver implements Observer {
-    @Override
-    public void update(int state) {
-        String color="";
-        switch(state){
-            case 1:
-                color = "ColorA";
-            case 2:
-                color = "ColorB";
-            case 3:
-                color = "ColorC";
-        }
-                    
-        System.out.println("Current background color: " + color);
+public  class CurrentObserver implements Observer {
+    private String color;
+
+    public CurrentObserver(String color,int state){
+        this.color = color;
+        MainSubject.state= state;
+    }
+    public String getColor(){
+        return this.color;
     }
 }
 

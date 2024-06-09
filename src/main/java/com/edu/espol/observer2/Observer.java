@@ -10,5 +10,8 @@ package com.edu.espol.observer2;
  * @author hailiejimenez
  */
 public interface Observer {
-    void update(int state);
+    public static void update(int state,String colorButton) {
+        String color=colorButton.replace("Button", "");
+    }
+    public String getColor();
 }
